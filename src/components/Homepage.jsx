@@ -21,8 +21,11 @@ const Homepage = () => {
 
   return (
     <>
+    <Col span={22}>
+      
       <Title level={2} className='heading'>Global Crypto Stats</Title>
-      <Row>
+
+      <Row gutter={[15,15]}>
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
         <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
         <Col span={12}><Statistic title="Total Market Cap" value={millify(globalStats.totalMarketCap)} /></Col>
@@ -32,16 +35,17 @@ const Homepage = () => {
 
       <div className='home-heading-container'>
       <Title level={2} className='home-title'>Top 10 Cryptocurrencies in the world</Title>
-      <Title level={3} className='show-more'><Link to='/cryptocurrencies'>Show more</Link></Title>
+      <Title level={4} className='show-more'><Link to='/cryptocurrencies'>Show more</Link></Title>
       </div>
       <Cryptocurrencies simplified />
 
       <div className='home-heading-container'>
       <Title level={2} className='home-title'>Latest Crypto News</Title>
-      <Title level={3} className='show-more'><Link to='/news'>Show more</Link></Title>
+      <Title level={4} className='show-more'><Link to='/news'>Show more</Link></Title>
       </div>
       <News simplified />
 
+      </Col>
     
     </>
   )

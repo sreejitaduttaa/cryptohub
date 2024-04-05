@@ -8,7 +8,7 @@ import Loader from './Loader'
 
 const Cryptocurrencies = ({simplified}) => {
 
-  const count = simplified?10:100;
+  const count = simplified?12:100;
   const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
   const [cryptos, setCryptos] = useState([]); 
   const [searchTerm, setSearchTerm] = useState('');
@@ -31,9 +31,12 @@ const Cryptocurrencies = ({simplified}) => {
     {/* search bar */}
    { simplified
     ? <></>
-    : <div className='search-crypto'>
-    <Input placeholder='Search Cryptocurrency' onChange={(e)=>setSearchTerm(e.target.value)}/>
-  </div>}
+    : <input class="search-input" type="text" placeholder="Search" onChange={(e)=>setSearchTerm(e.target.value)} ></input>
+  }
+    
+  {/* //   <div className='search-crypto'>
+  //   <input placeholder='Search Cryptocurrency' onChange={(e)=>setSearchTerm(e.target.value)}/>
+  // </div>} */}
 
     {/* cryptos list */}
     <Row gutter={[24, 24]} className="crypto-card-container">
@@ -46,7 +49,6 @@ const Cryptocurrencies = ({simplified}) => {
             key={currency.uuid}
           >
 
-       
             <Link key={currency.uuid} to={`/crypto/${currency.uuid}`}>
               <Card
                 title={`${currency.rank}. ${currency.name}`}

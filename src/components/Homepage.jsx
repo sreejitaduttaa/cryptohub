@@ -17,8 +17,6 @@ const Homepage = () => {
 
   if (isFetching) return <Loader/>;
 
-
-
   return (
     <>
     <Col span={22}>

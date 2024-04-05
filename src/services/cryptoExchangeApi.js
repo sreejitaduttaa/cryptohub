@@ -1,10 +1,10 @@
 import { fetchBaseQuery, createApi } from "@reduxjs/toolkit/query/react";
 
 const cryptoNewsHeaders = {
-  "X-RapidAPI-Key": "2a949736famshed98e9ab543b473p1a70fdjsnf5722519a388",
-  "X-RapidAPI-Host": "coingecko.p.rapidapi.com",
+  "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
+  "X-RapidAPI-Host": process.env.REACT_APP_EXCHANGES_RAPIDAPI_HOST,
 };
-const baseUrl = "https://coingecko.p.rapidapi.com";
+const baseUrl = process.env.REACT_APP_EXCHANGES_API_URL;
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders });
 

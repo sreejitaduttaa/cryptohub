@@ -13,7 +13,7 @@ const Exchanges = () => {
 
   return (
     <>
-      <Row>
+      <Row className="topic-heading-container">
         <Col span={6}>Exchanges</Col>
         <Col span={6}>24h Trade Volume</Col>
         <Col span={6}>Trust Score</Col>
@@ -23,8 +23,9 @@ const Exchanges = () => {
       <Row>
         {data.map((exchange) => (
           <Col span={22}>
-            <Collapse>
+            <Collapse   size="large">
               <Panel
+              
                 key={exchange.id}
                 showArrow={false}
                 header={

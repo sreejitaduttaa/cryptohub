@@ -14,291 +14,322 @@ const News = ({ simplified }) => {
   // const { data: cryptoNews, isFetching } = useGetCryptoNewsQuery(newsToken);
   let tokenArray = ["ADA", "BCH", "BNB", "BTC", "DOGE", "DOT", "EOS", "ETC", "ETH", "FIL", "ICP", "LTC", "MATIC", "SOL", "THETA", "TRX", "VET", "XLM", "XMR", "XRP", "USDT"]
 
- const cryptoNews =  {
+
+  const cryptoNews =   {
     "result": {
       "response": "ok",
       "newsCount": 15
     },
     "news": [
       {
-        "Title": "Robinhood lancia i wallet di criptovaluta",
-        "Source": "it.notizie.yahoo.com",
-        "Url": "https://it.finance.yahoo.com/notizie/robinhood-lancia-wallet-di-criptovaluta-102600853.html",
-        "PublishedOn": "2022-04-11T10:10:31.341Z",
-        "Description": "La popolare piattaforma di trading al dettaglio Robinhood Markets Inc (NASDAQ:HOOD) ha lanciato il suo wallet di criptovaluta per quasi due milioni di utenti. Cosa è successo Giovedì, alla conferenza Bitcoin 2022 di Miami, il responsabile prodotti di Robinhood Aparna Chennapragada ha annunciato che tutte le persone sulla lista d'attesa dei WenWallets ora avranno accesso al wallet digitale. A causa delle normative locali, il wallet di criptovaluta non sarà disponibile per gli utenti di Hawaii, Ne",
-        "Image": "https://s.yimg.com/uu/api/res/1.2/KiO7w2vRKYqAbl3g.6VaJw--~B/aD0zNzU7dz02ODU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/it/benzinga_italy_839/32f00f309c9e86ca43920b020de2e700",
-        "SourceNationality": "it",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.85
-        },
-        "Summary": "Giovedì, alla conferenza Bitcoin 2022 di Miami, il responsabile prodotti di Robinhood Aparna Chennapragada ha annunciato che tutte le persone sulla lista d'attesa dei WenWallets ora avranno accesso al wallet digitale. A causa delle normative locali, il wallet di criptovaluta non sarà disponibile per gli utenti di Hawaii, Nevada o New York.",
-        "Countries": [
-          "us"
-        ],
-        "CryptoCurrencies": [
-          "Ethereum",
-          "Bitcoin",
-          "Dogecoin"
-        ]
-      },
-      {
-        "Title": "Hong Kong’s OneDegree Inks Deal with Reinsurer Munich Re to Launch Digital Asset Insurance",
-        "Source": "coindesk.com",
-        "Url": "https://www.coindesk.com/business/2022/04/11/hong-kongs-onedegree-inks-deal-with-reinsurer-munich-re-to-launch-digital-asset-insurance/",
-        "PublishedOn": "2022-04-11T09:45:59.275Z",
-        "Description": "Currently, only 1.5% of assets held by global exchanges and custodians are insured.",
-        "Image": "https://www.coindesk.com/resizer/5LLCqho_aAfWQMlOSqGHCWWd5aY=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/DGDTLVEWJRBQXNPIFMZCA73U4Q.jpg",
-        "SourceNationality": "us",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.7
-        },
-        "Summary": "CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups. CoinDesk journalists are not allowed to purchase stock outright in DCG.",
-        "Countries": [
-          "hk"
-        ],
-        "CryptoCurrencies": []
-      },
-      {
-        "Title": "Multiple Indian Official Twitter Accounts Hacked, NFT Content Posted",
-        "Source": "coindesk.com",
-        "Url": "https://www.coindesk.com/tech/2022/04/11/multiple-indian-official-twitter-accounts-hacked-nft-content-posted/",
-        "PublishedOn": "2022-04-11T09:19:09.913Z",
-        "Description": "Accounts of a high profile state chief minister, political parties and government institutions were compromised.",
-        "Image": "https://www.coindesk.com/resizer/zrAlO3NfcRz4OpAmk6zwJhw1qTg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/KB67TTSTMBH45EVSPCVXHR32PI.jpg",
-        "SourceNationality": "us",
+        "Title": "#WykresDnia: Indeks strachu wzrósł o ponad 14 proc., najwięcej od października",
+        "Source": "parkiet.com",
+        "Url": "http://www.parkiet.com/wykres-dnia/art40117601-wykresdnia-indeks-strachu-wzrosl-o-ponad-14-proc-najwiecej-od-pazdziernika",
+        "PublishedOn": "2024-04-05T16:54:32.604Z",
+        "Description": "Indeks VIX, który jest najlepszą miarą zmienności na rynku, wzrósł do 16,35 dolarów, czyli znacznie powyżej najniższego od początku roku poziomu 12 dolarów.",
+        "Language": "pl",
+        "Image": "https://i.gremicdn.pl/image/free/529231e7253f36ceb4a994a6ff6531fb/?t=crop:5758:3571:nowe:0:135,resize:fill:1200:716,enlarge:1",
+        "SourceNationality": "pl",
         "TitleSentiment": {
           "sentiment": "negative",
-          "score": -0.51
+          "score": -0.93
         },
-        "Summary": "CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups. CoinDesk journalists are not allowed to purchase stock outright in DCG.",
+        "Summary": "W tym tygodniu giełda również borykała się z trudnościami, ponieważ indeksy Dow Jones, Nasdaq 100 i S&P 500 spadały we wszystkie dni tygodnia. Indeks VIX, który jest najlepszą miarą zmienności na rynku, wzrósł do 16,35 dolarów, czyli znacznie powyżej najniższego od początku roku poziomu 12 dolarów.",
         "Countries": [
-          "in"
-        ]
-      },
-      {
-        "Title": "$4,000,000,000 in Bitcoin Exiting Crypto Exchanges Every Month As Outflows Reach Historic Proportions: Glassnode",
-        "Source": "dailyhodl.com",
-        "Url": "https://dailyhodl.com/2022/04/11/4000000000-in-bitcoin-exiting-crypto-exchanges-every-month-as-outflows-reach-historic-proportions-glassnode",
-        "PublishedOn": "2022-04-11T09:15:53.000Z",
-        "Description": "The co-founder of leading analytics platform Glassnode says higher prices for Bitcoin are inevitable as BTC leaves exchanges at historic levels.",
-        "Image": "https://i0.wp.com/dailyhodl.com/wp-content/uploads/2021/12/bitcoin-correction-different.jpg?fit=1365%2C800&ssl=1",
-        "SourceNationality": "us",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.57
-        },
-        "Summary": "The co-founder of leading analytics platform Glassnode says higher prices for Bitcoin are inevitable as BTC leaves exchanges at historic levels. According to Allemann, Bitcoin is long-term bullish as the metric is in an uptrend, suggesting investors are taking profits at a slower rate than the growth of the market.",
-        "Countries": [],
-        "CryptoCurrencies": [
-          "Bitcoin"
-        ]
-      },
-      {
-        "Title": "Mark Karpelès, le \"baron\" déchu du bitcoin, veut créer une agence de notation pour les cryptomonnaies",
-        "Source": "la-croix.com",
-        "Url": "https://www.la-croix.com/Mark-Karpeles-baron-dechu-bitcoin-veut-creer-agence-notation-cryptomonnaies-2022-04-11-1301209764",
-        "PublishedOn": "2022-04-11T09:03:06.000Z",
-        "Description": "Mark Karpelès, ancien patron de la plateforme d'échanges de bitcoins Mt. Gox qui avait fait faillite en 2014 après un piratage, veut lancer une agence de notation dans le secteur des cryptomonnaies, où «beaucoup reste à faire en matière de sécurité» rappelle-t-il.",
-        "Image": "https://i.la-croix.com/1400x933/smart/2022/04/11/1301209764/Mark-Karpeles-fondateur-UNGOX-ancien-patron-plateforme-echanges-bitcoins-Mt-Gox-Tokyo-11-avril-2022_0.jpg",
-        "SourceNationality": "fr",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.91
-        },
-        "Summary": "Il prévoit de lancer au troisième trimestre 2022 \"Ungox\", un site indépendant évaluant les niveaux de risques des différentes plateformes et projets dans les cryptomonnaies, avec une partie gratuite et un contenu premium payant, imaginant aussi des services d'audit pour des entreprises présentes ou souhaitant s'introduire sur ce marché, souvent considéré comme très opaque. L'entrepreneur a exclu d'emblée le recours à des revenus publicitaires pour \"rester indépendant\", et a chiffré à trois millions de dollars le besoin de financement pour les deux premières années du site, qui nécessiterait \"au moins dix analystes à plein temps\".",
-        "Countries": [
-          "fr",
-          "jp"
+          "pl"
         ],
         "CryptoCurrencies": [
+          "Solana",
           "Bitcoin"
         ]
       },
       {
-        "Title": "IMF claims crypto usage is higher in corrupt countries with tighter capital restrictions",
-        "Source": "finbold.com",
-        "Url": "https://finbold.com/imf-says-the-number-of-crypto-users-is-higher-in-corrupt-nations",
-        "PublishedOn": "2022-04-11T08:58:34.000Z",
-        "Description": "In the last year, the rise of crypto has proceeded quickly, with some places already adopting Bitcoin as legal tender or as payment.",
-        "Image": "https://finbold.com/wp-content/uploads/2022/04/IMF-claims-crypto-usage-is-higher-in-corrupt-countries-with-tighter-capital-restrictions.jpg",
-        "SourceNationality": "gb",
-        "TitleSentiment": {
-          "sentiment": "negative",
-          "score": -0.46
-        },
-        "Summary": "“We find that crypto-asset usage is significantly and positively associated with higher perception of corruption and more intensive capital controls,” the IMF report said. Indeed, in those countries regarded as corrupt or having severe capital restrictions, cryptocurrency adoption is higher, bolstering the argument for stronger sector regulation, per the report.",
-        "Countries": [
-          "ru",
-          "ua",
-          "us"
-        ],
-        "CryptoCurrencies": [
-          "Bitcoin"
-        ]
-      },
-      {
-        "Title": "Coinbase suspends crypto payment services days after India launch",
-        "Source": "cointelegraph.org",
-        "Url": "https://cointelegraph.com/news/coinbase-suspends-crypto-payment-services-days-after-india-launch",
-        "PublishedOn": "2022-04-11T08:14:46.848Z",
-        "Description": "Coinbase crypto exchange has suspended buy order service on its Indian arm due to pressure from local payment authorities. The NPCI stated it was unaware that a crypto exchange was using its exclusive payment interface to facilitate buy orders.",
-        "Image": "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDQvMGMxZTgzYzItNzdjZS00ZTIyLTg3NTMtYzJmNjY5NDE5ZDA0LmpwZw==.jpg",
-        "SourceNationality": "us",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.64
-        },
-        "Summary": "The largest US-based crypto exchange Coinbase has stopped payment services through United Payments Interface (UPI) on its platform for Indian users just three days after its launch in the South Asian subcontinent. This is not new, Indian exchanges have also been facing payment service problem since 2018.",
-        "Countries": [
-          "in"
-        ]
-      },
-      {
-        "Title": "Cathie Wood’s Ark Invest dumps PayPal favoring Bitcoin-friendly Cash App",
-        "Source": "cointelegraph.org",
-        "Url": "https://cointelegraph.com/news/cathie-wood-s-ark-invest-dumps-paypal-favoring-bitcoin-friendly-cash-app",
-        "PublishedOn": "2022-04-11T08:14:45.918Z",
-        "Description": "Bitcoin bull and crypto investment firm Ark Invest founder Cathie Wood said that her firm has shed all of its shares of PayPal and will be sticking with Cash App due to its sounder adoption of Bitcoin.",
-        "Image": "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDQvYWYxZGJmNGQtY2EyMC00N2JkLWIyZTItMWVmNTdlMDZiNWM0LmpwZw==.jpg",
-        "SourceNationality": "us",
-        "TitleSentiment": {
-          "sentiment": "negative",
-          "score": -0.5
-        },
-        "Summary": "Financial technology company PayPal operates the payment app Venmo as a direct competitor with Block’s (formerly Square) Cash App. “@ARKInvest has sold, completely got out of Paypal, whose Venmo is a big competitor to Cash App.",
-        "Countries": [
-          "us"
-        ],
-        "CryptoCurrencies": [
-          "Bitcoin"
-        ]
-      },
-      {
-        "Title": "Crypto Strategist Warns Deep Bitcoin Correction Coming, Says BTC Flashing November 2021 Vibes",
-        "Source": "dailyhodl.com",
-        "Url": "https://dailyhodl.com/2022/04/11/crypto-strategist-warns-deep-bitcoin-correction-coming-says-btc-flashing-november-2021-vibes",
-        "PublishedOn": "2022-04-11T07:04:48.000Z",
-        "Description": "A closely followed crypto strategist and trader says Bitcoin's (BTC) price action resembles the market top of November 2021 and is ready for another deep retracement.",
-        "Image": "https://i0.wp.com/dailyhodl.com/wp-content/uploads/2022/01/bitcoin-early-adoption-tech.jpg?fit=1365%2C800&ssl=1",
-        "SourceNationality": "us",
-        "TitleSentiment": {
-          "sentiment": "negative",
-          "score": -0.86
-        },
-        "Summary": "In a new strategy session, pseudonymous analyst DonAlt says that bears have taken control of Bitcoin after bulls failed to push the market higher despite large purchases from MicroStrategy’s Michael Saylor and Terra (LUNA) founder Do Kwon. “I think the assumption has to be this is bearish and this is going to go down because we had a bunch of good news.",
-        "Countries": [],
-        "CryptoCurrencies": [
-          "Ethereum",
-          "Bitcoin"
-        ]
-      },
-      {
-        "Title": "Binance Obtains In-Principle Approval From the Abu Dhabi Global Market",
-        "Source": "cryptopotato.com",
-        "Url": "https://cryptopotato.com/binance-obtains-in-principle-approval-from-the-abu-dhabi-global-market",
-        "PublishedOn": "2022-04-11T05:50:27.000Z",
-        "Description": "The United Arab Emirates continues on its route to becoming a cryptocurrency hub by providing an In-Principle Approval for Binance.",
-        "Image": "https://cryptopotato.com/wp-content/uploads/2022/04/Binance_abu_Dhabi.jpg",
-        "SourceNationality": "bg",
+        "Title": "Portfel inwestycyjny na kwiecień 2024: Rynkowy bal trwa. Optymizm nie opuszcza ekspertów",
+        "Source": "parkiet.com",
+        "Url": "http://www.parkiet.com/portfel-inwestycyjny/art40115611-portfel-inwestycyjny-na-kwiecien-2024-rynkowy-bal-trwa-optymizm-nie-opuszcza-ekspertow",
+        "PublishedOn": "2024-04-05T16:54:32.213Z",
+        "Description": "Jeśli inwestować na rynku walutowym, to głównie przeciwko frankowi. Dobrą passę na rynku surowców powinny kontynuować metale szlachetne, a coraz lepsze perspekt",
+        "Language": "pl",
+        "Image": "https://i.gremicdn.pl/image/free/9b2cbfcf692fa362f5b4879dcf569675/?t=crop:5263:3264:nowe:280:0,resize:fill:1200:716,enlarge:1",
+        "SourceNationality": "pl",
         "TitleSentiment": {
           "sentiment": "positive",
           "score": 1
         },
-        "Summary": "Less than a month after receiving a limited crypto asset license in Dubai, the world’s leading cryptocurrency exchange obtained an In-Principle Approval from the Financial Services Permission of Abu Dhabi Global Market. * Binance already received a limited license in Dubai to operate as a cryptocurrency exchange in March this year but under certain conditions.",
+        "Summary": "Część ekspertów wierzy, że złoty może być silniejszy nie tylko względem franka, ale także euro. Widać też, że inwestorzy na rynku akcji zaczęli już pozycjonować się na wzrost spółek surowcowych.",
         "Countries": [
-          "qa",
-          "ae"
+          "pl"
+        ],
+        "CryptoCurrencies": [
+          "Ethereum"
         ]
       },
       {
-        "Title": "Luna Foundation Treasury Holds Almost 40,000 BTC After Weekend Purchase",
-        "Source": "coindesk.com",
-        "Url": "https://www.coindesk.com/markets/2022/04/11/luna-foundation-treasury-holds-almost-40000-btc-after-weekend-purchase/",
-        "PublishedOn": "2022-04-11T04:03:36.901Z",
-        "Description": "Luna Foundation Guard bought $173 million worth of bitcoin over the weekend, but bitcoin is down 2%.",
-        "Image": "https://www.coindesk.com/resizer/jZBTVFLJKpzYGe2A7Ph5EdtJgX8=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/DQZJX2YNKNEUPKCTUGDBFRORQM.png",
+        "Title": "Złoty wrócił do dobrej formy",
+        "Source": "parkiet.com",
+        "Url": "http://www.parkiet.com/waluty/art40118911-zloty-wrocil-do-dobrej-formy",
+        "PublishedOn": "2024-04-05T16:54:31.392Z",
+        "Description": "Po zawahaniu krajowej waluty w drugiej połowie marca nie ma już śladów. Kursy dolara i euro wędrują w dół.",
+        "Language": "pl",
+        "Image": "https://i.gremicdn.pl/image/free/4e344437319f4680a45fcb334053b826/?t=crop:3478:2157:nowe:11:0,resize:fill:1200:716,enlarge:1",
+        "SourceNationality": "pl",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.99
+        },
+        "Summary": "Kluczowy odczyt z rynku pracy zadecyduje, czy wygłaszane na tle tego tygodnia jastrzębie komentarze bankierów FED są uzasadnione i czy trwale zdołają one opóźnić tempo obniżek stóp procentowych w USA. Dolar znów jest poniżej 4 zł, zaś euro poniżej 4,30 zł.",
+        "Countries": [
+          "ch",
+          "pl"
+        ],
+        "CryptoCurrencies": [
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "Gigantyczne obroty na rynku kryptowalut",
+        "Source": "parkiet.com",
+        "Url": "http://www.parkiet.com/kryptowaluty/art40117531-gigantyczne-obroty-na-rynku-kryptowalut",
+        "PublishedOn": "2024-04-05T16:54:31.227Z",
+        "Description": "Łączne obroty na rynku spotowym i instrumentów pochodnych powiązanych z walutami cyfrowymi na zcentralizowanych giełdach w marcu niemal podwoiły się do  9,1 bil",
+        "Language": "pl",
+        "Image": "https://i.gremicdn.pl/image/free/dd6d3974d6e485de18ef50dc192ddb74/?t=crop:3267:2026:nowe:167:0,resize:fill:1200:716,enlarge:1",
+        "SourceNationality": "pl",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.71
+        },
+        "Summary": "15 lat od powstania bitcoina nadal nie jest znana tożsamość jego twórcy posługującego się pseudonimem „Satoshi Nakamoto”. Wydobycie na pewien czas stanie się mniej opłacalne, ale kurs kryptowaluty może pójść mocno w górę w ciągu półtora roku.",
+        "Countries": [
+          "pl"
+        ],
+        "CryptoCurrencies": [
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "Die Volksinitiative zur Kostenbremse im Gesundheitswesen auf einen Blick",
+        "Source": "nzz.ch",
+        "Url": "http://nzz.ch/schweiz/kopie-von-die-volksinitiative-zur-staerkeren-verbilligung-der-krankenkassenpraemien-auf-einen-blick-ld.1824743",
+        "PublishedOn": "2024-04-05T16:23:47.603Z",
+        "Description": "Muss der Bund beim Überschreiten einer Kostenschwelle in der obligatorischen Krankenversicherung künftig wirksame Gegenmassnahmen beschliessen? Das fordert eine Volksinitiative der Mitte-Partei. Die Stimmbürger entscheiden am 9. Juni.",
+        "Language": "de",
+        "Image": "https://img.nzz.ch/2024/04/05/5b6c4e3b-f570-4343-b420-d09a533340e8.png?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=4800,2700,x0,y1&wmark=nzz",
+        "SourceNationality": "ch",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.91
+        },
+        "Summary": "Von 2000 bis 2022 haben sich in der obligatorischen Krankenversicherung vor allem wegen des Mehrkonsums die Kosten pro Versichertem verdoppelt (plus 104 Prozent), und das Gleiche gilt für die mittlere Prämie (ebenfalls plus 104 Prozent). Der Gegenvorschlag sieht zudem auch die Einsetzung einer Kommission für die Überwachung von Kosten und Qualität vor.",
+        "Countries": [
+          "ch"
+        ],
+        "CryptoCurrencies": [
+          "Ethereum"
+        ]
+      },
+      {
+        "Title": "GAM3S.GG and Immutable Partner to Expand Web3 Gaming Ecosystem and Foster Future Growth",
+        "Source": "prnewswire.com",
+        "Url": "https://www.prnewswire.com/news-releases/gam3sgg-and-immutable-partner-to-expand-web3-gaming-ecosystem-and-foster-future-growth-302109038.html",
+        "PublishedOn": "2024-04-05T16:00:00.000Z",
+        "Description": "/PRNewswire/ -- GAM3S.GG, a web3 gaming onboarding and news platform that aims to bring over 100 million players to web3, and Immutable, the leading web3...",
+        "Language": "en",
+        "Image": "https://mma.prnewswire.com/media/2090985/immutable_Logo.jpg?p=facebook",
         "SourceNationality": "us",
         "TitleSentiment": {
           "sentiment": "positive",
-          "score": 0.86
+          "score": 0.83
         },
-        "Summary": "CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups. CoinDesk journalists are not allowed to purchase stock outright in DCG.",
+        "Summary": "GG launched exclusive quests, community tournaments and in-game content for Blast Royale and MetalCore, helping drive player growth and anticipation for both titles. \"It's clear that web3 gaming is poised to explode, and we plan to drive this explosion alongside Immutable as a key partner,\" said Omar Ghanem, CEO of GAM3S.",
         "Countries": [],
         "CryptoCurrencies": [
-          "Bitcoin"
+          "Ethereum"
         ]
       },
       {
-        "Title": "Crypto and gaming collide in high-risk 'play-to-earn' economies",
-        "Source": "asiaone.com",
-        "Url": "http://www.asiaone.com/digital/crypto-and-gaming-collide-high-risk-play-earn-economies",
-        "PublishedOn": "2022-04-11T03:20:57.000Z",
-        "Description": "Jarindr Thitadilaka says he made as much as USD$2,000 (S$2,730) a month last year from his collection of digital pets, which he would breed and send into battle to win cryptocurrencies.The 28-year-old from Bangkok was playing Axie Infinity,... - Read more at AsiaOne",
-        "Image": "https://www.asiaone.com/sites/default/files/styles/a1_og_image/public/original_images/Apr2022/11042022_crypto%20%285%29.jpg?itok=232_JCrj",
-        "SourceNationality": "sg",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.74
-        },
-        "Summary": "In-game assets called 'Axies' are seen in this undated handout image from the blockchain-based game Axie Infinity, which is owned by Sky Mavis. Undated handout image shows the blockchain-based game Axie Infinity, which is owned by Sky Mavis.",
-        "Countries": [
-          "ph"
-        ]
-      },
-      {
-        "Title": "[B-SIDE Podcast] Navigating the NFT gold rush",
-        "Source": "bworldonline.com",
-        "Url": "https://www.bworldonline.com/podcast/2022/04/11/441587/b-side-podcast-navigating-the-nft-gold-rush/",
-        "PublishedOn": "2022-04-11T02:47:02.000Z",
-        "Description": "Follow us on Spotify BusinessWorld B-Side Non-fungible Tokens (NFTs) in the form of both digital art and play-to-earn gaming assets have come under fire for their price volatility and vulnerability to frauds and scams. This March, hackers stole around $600 million from the Ronin blockchain network that supports Axie Infinity, a play-to-earn game with 3 million daily active players, 35% of […]",
-        "Image": "https://www.bworldonline.com/wp-content/uploads/2022/04/04.11.22-B_Side_NFT_Renz-Carlo-Chong_1400x1400.png",
-        "SourceNationality": "ph",
-        "TitleSentiment": {
-          "sentiment": "positive",
-          "score": 0.44
-        },
-        "Summary": "Non-fungible Tokens (NFTs) in the form of both digital art and play-to-earn gaming assets have come under fire for their price volatility and vulnerability to frauds and scams. Given the game’s large, Philippine-based demographic, the Bangko Sentral ng Pilipinas cautioned the public against dealing hastily with digital tokens.",
-        "Countries": [
-          "ph"
-        ]
-      },
-      {
-        "Title": "Stablecoins A Bigger Threat To",
-        "Source": "outlookindia.com",
-        "Url": "https://www.outlookindia.com/business/stablecoins-a-bigger-threat-to-economy-than-cryptos-rbi-dy-governor-opinion-divided-news-190989",
-        "PublishedOn": "2022-04-11T02:38:31.000Z",
-        "Description": "Statements by the RBI Dy. Governor that stablecoins present a bigger threat to economic stability than other cryptocurrencies has divided experts",
-        "Image": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1647587910.webp?utm_source=fb",
-        "SourceNationality": "in",
-        "TitleSentiment": {
-          "sentiment": "negative",
-          "score": -0.66
-        },
-        "Summary": "Coinbase, a global crypto exchange defines stablecoins as “a digital currency that is pegged to a “stable” reserve asset like the US dollar or gold. Aruna Sharma, former secretary, and member, RBI Committee in Deepening Of Digital Payment believes that while stablecoins have some sort of a backup and security, crypto currencies do not come with any such base.",
-        "Countries": [
-          "in"
-        ],
-        "CryptoCurrencies": [
-          "Usd Coin",
-          "Bitcoin"
-        ]
-      },
-      {
-        "Title": "Terra’s LUNA Leads Slide in Majors as Ether Nears $3K",
-        "Source": "coindesk.com",
-        "Url": "https://www.coindesk.com/markets/2022/04/11/terras-luna-leads-slide-in-majors-as-ether-nears-3k/",
-        "PublishedOn": "2022-04-11T00:00:00.000Z",
-        "Description": "Crypto markets slid on Monday amid a weak trading session in Asia and Europe in broader markets.",
-        "Image": "https://www.coindesk.com/resizer/nh7zyHDiUzeHkddRGyQqCj0qdA0=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/YM54TY3DKVE33NUL5BLCT6EN2E.jpg",
+        "Title": "Solana (SOL) Skyrockets 319% Amid Exciting Q1 DEX Volume Surge",
+        "Source": "u.today",
+        "Url": "https://u.today/solana-sol-skyrockets-319-amid-exciting-q1-dex-volume-surge",
+        "PublishedOn": "2024-04-05T15:42:00.000Z",
+        "Description": "Solana has emerged as standout performer in Q1, 2024",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46910.jpg",
         "SourceNationality": "us",
         "TitleSentiment": {
           "sentiment": "positive",
           "score": 0.93
         },
-        "Summary": "CoinDesk is an independent operating subsidiary of Digital Currency Group, which invests in cryptocurrencies and blockchain startups. CoinDesk journalists are not allowed to purchase stock outright in DCG.",
-        "Countries": []
+        "Summary": "Solana, the fifth-largest cryptocurrency by market capitalization, has emerged as a standout performer in the first quarter. USDC was the sole driver of the growth, with its Solana market capitalization increasing by 111% quarter-on-quarter to $2 billion.",
+        "Countries": [
+          "ir"
+        ],
+        "CryptoCurrencies": [
+          "Usd Coin",
+          "Solana",
+          "Ethereum"
+        ]
+      },
+      {
+        "Title": "Cuándo es el halving de bitcoin 2024 y cómo te puede afectar",
+        "Source": "tn.com.ar",
+        "Url": "http://tn.com.ar/economia/2024/04/05/cuando-es-el-halving-de-bitcoin-2024-y-como-te-puede-afectar",
+        "PublishedOn": "2024-04-05T15:37:31.571Z",
+        "Description": "En este 2024, se llevará a cabo el cuarto halving en la historia del bitcoin.",
+        "Language": "es",
+        "Image": "https://tn.com.ar/resizer/6saOaE0TRvsWQSD4m4q3VXbapW4=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/SIDJTWCCVJCONKVFGJ4TR5CZQY.png",
+        "SourceNationality": "ar",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.29
+        },
+        "Summary": "El halving de bitcoin es uno de los eventos más significativos y esperados en el mundo de las criptomonedas, y su próxima edición en 2024 está generando un gran interés. El halving de bitcoin es un mecanismo incorporado en el protocolo de bitcoin que reduce a la mitad las recompensas otorgadas a los mineros por validar un bloque.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "Cardano (ADA) Reaches Major Milestone With 88.6 Million Transactions",
+        "Source": "u.today",
+        "Url": "https://u.today/cardano-ada-reaches-major-milestone-with-886-million-transactions",
+        "PublishedOn": "2024-04-05T15:21:00.000Z",
+        "Description": "Cardano (ADA) reaches significant milestone as it completes 88.6 million transactions amid progress in key blockchain areas",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46908.jpg",
+        "SourceNationality": "us",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.93
+        },
+        "Summary": "IOHK, the driving force behind Cardano (ADA), has announced a notable milestone in the project's advancement with the completion of 88.6 million transactions. Additionally, the release of Lace v.1.9 by the Lace team introduces multi-wallet and multi-account functionality, enhancing the platform's usability.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Cardano"
+        ]
+      },
+      {
+        "Title": "BTC Faces Enhanced Volatility as US Govt Sells Silk Road-Related Bitcoin, BCH Completes 2nd Halving: This Week’s Crypto",
+        "Source": "cryptopotato.com",
+        "Url": "https://cryptopotato.com/btc-faces-enhanced-volatility-as-us-govt-sells-silk-road-related-bitcoin-bch-completes-2nd-halving-this-weeks-crypto-recap",
+        "PublishedOn": "2024-04-05T15:15:29.000Z",
+        "Description": "Most of the crypto market is in the red on a weekly scale, with DOGE, SHIB, ADA, and AVAX plummeting by double digits.",
+        "Language": "en",
+        "Image": "https://cryptopotato.com/wp-content/uploads/2023/12/market_update_cover.jpg",
+        "SourceNationality": "bg",
+        "TitleSentiment": {
+          "sentiment": "negative",
+          "score": -0.36
+        },
+        "Summary": "She said the primary cryptocurrency works as an insurance policy against rogue regimes. Bitcoin (BTC) Price Will Not Drop Below This Level Again, Says PlanB.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Dogecoin",
+          "Cardano",
+          "Bitcoin Cash",
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "Citadel, Goldman Sachs, UBS, Citigroup Now Want Piece of Bitcoin",
+        "Source": "u.today",
+        "Url": "https://u.today/citadel-goldman-sachs-ubs-citigroup-now-want-piece-of-bitcoin",
+        "PublishedOn": "2024-04-05T15:15:00.000Z",
+        "Description": "Citadel, Goldman and UBS are no longer shying away from being publicly associated with Bitcoin, accordion to ETF analyst Eric Balchunas",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46896.jpg",
+        "SourceNationality": "us",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.9
+        },
+        "Summary": "According to Balchunas, these authorized participants could have been on the list earlier, but they were \"ashamed\" of being associated with the product before its launch. However, now that BlackRock's Bitcoin ETF has ended up being a stunning success, they are more comfortable with being identified as authorized participants.",
+        "Countries": [
+          "ch",
+          "us"
+        ],
+        "CryptoCurrencies": [
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "SHIB, BTC, ADA: KuCoin Issues Critical Alert to Crypto Users in Wake of This Development",
+        "Source": "u.today",
+        "Url": "https://u.today/shib-btc-ada-kucoin-issues-critical-alert-to-crypto-users-in-wake-of-this-development",
+        "PublishedOn": "2024-04-05T15:10:00.000Z",
+        "Description": "In light of this, KuCoin warns crypto users to stay vigilant",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46906.jpg",
+        "SourceNationality": "us",
+        "TitleSentiment": {
+          "sentiment": "negative",
+          "score": -0.51
+        },
+        "Summary": "In a recent development, KuCoin, a prominent cryptocurrency exchange, has issued a critical warning to its users regarding phishing scams. KuCoin reported that scammers have been sending messages that mimic KuCoin's branding.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Cardano",
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "I Would Take Long Position in ETH, Peter Brandt Says After Bashing Ethereum",
+        "Source": "u.today",
+        "Url": "https://u.today/i-would-take-long-position-in-eth-peter-brandt-says-after-bashing-ethereum",
+        "PublishedOn": "2024-04-05T15:02:00.000Z",
+        "Description": "Renowned trader Peter Brandt admitted that he would trade ETH despite his recent critique against it",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46907.jpg",
+        "SourceNationality": "us",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.7
+        },
+        "Summary": "no longer be available. no longer be available.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Ethereum",
+          "Bitcoin"
+        ]
+      },
+      {
+        "Title": "Green Bitcoin Price Rockets 70% After Uniswap Debut as Whale Investors Buy In",
+        "Source": "finbold.com",
+        "Url": "https://finbold.com/green-bitcoin-price-rockets-70-after-uniswap-debut-as-whale-investors-buy-in",
+        "PublishedOn": "2024-04-05T14:55:37.000Z",
+        "Description": "Crypto’s latest buzzworthy project is off to an explosive start. After a wildly successful presale, Green Bitcoin’s much-hyped GBTC token … Continue reading",
+        "Language": "en",
+        "Image": "https://assets.finbold.com/uploads/2024/04/1.png",
+        "SourceNationality": "gb",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.98
+        },
+        "Summary": "Those locking up their GBTC can earn estimated yields of 72% per year for participating in Green Bitcoin’s protocol. But beyond this Predict-to-Earn mechanism is an even more enticing feature – Green Bitcoin’s Proof-of-Stake consensus.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Bitcoin",
+          "Ethereum"
+        ]
+      },
+      {
+        "Title": "Ethereum (ETH) Price Prediction for April 5",
+        "Source": "u.today",
+        "Url": "https://u.today/ethereum-eth-price-prediction-for-april-5",
+        "PublishedOn": "2024-04-05T14:28:00.000Z",
+        "Description": "Has correction of Ethereum (ETH) ended yet?",
+        "Language": "en",
+        "Image": "https://u.today/sites/default/files/styles/twitter/public/2024-04/46902.jpg",
+        "SourceNationality": "us",
+        "TitleSentiment": {
+          "sentiment": "positive",
+          "score": 0.76
+        },
+        "Summary": "On the hourly chart, the price of ETH might have found a local support level of $3,237. On the bigger time frame, the rate of the main altcoin has once again bounced off the $3,214 level.",
+        "Countries": [],
+        "CryptoCurrencies": [
+          "Ethereum"
+        ]
       }
     ]
   }
@@ -343,6 +374,7 @@ const News = ({ simplified }) => {
             <Col span={24}>
               <Select
                 showSearch
+                allowClear="true"
                 className="select-news"
                 placeholder="Select a Crypto"
                 optionFilterProp="children"

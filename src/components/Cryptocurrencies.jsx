@@ -33,10 +33,6 @@ const Cryptocurrencies = ({simplified}) => {
     ? <></>
     : <input class="search-input" type="text" placeholder="Search" onChange={(e)=>setSearchTerm(e.target.value)} ></input>
   }
-    
-  {/* //   <div className='search-crypto'>
-  //   <input placeholder='Search Cryptocurrency' onChange={(e)=>setSearchTerm(e.target.value)}/>
-  // </div>} */}
 
     {/* cryptos list */}
     <Row gutter={[24, 24]} className="crypto-card-container">

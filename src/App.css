@@ -180,6 +180,13 @@ a:hover{
     color: var(--pink) !important;
 }
 
+.coin-details-heading p{
+    font-weight: 500 !important;
+    margin-top: 35px !important;
+    color: black !important;
+
+}
+
 .coin-stats{
     display: flex;
     justify-content: space-between;
@@ -232,6 +239,16 @@ a:hover{
 
 .coin-desc{
     flex: 0.5;
+
+}
+.coin-desc p{
+  /* display: block; */
+  /* vertical-align: top; */
+  /* flex-direction: column;
+  
+  flex-wrap: initial; */
+  vertical-align: text-top;
+  /* align-items: flex-start; */
 }
 
 .coin-links{
